@@ -77,7 +77,11 @@
                 "name": "Tech Fest",
                 "date": "10 September 2024"
             }
-        ]
+        ],
+        "breaks": {
+            "mid_semester_break": "28 October - 03 November 2024",
+            "end_semester_break": "15 December 2024 - 01 January 2025"
+        }
     },
     "even_semester": {
         "registration": {
@@ -141,6 +145,10 @@
                 "name": "Spring Carnival",
                 "date": "05 April 2025"
             }
-        ]
+        ],
+        "breaks": {
+            "mid_semester_break": "10-16 March 2025",
+            "end_semester_break": "22 May - 13 July 2025"
+        }
     }
 }
