@@ -1,0 +1,201 @@
+{
+    "batches": {
+        "TE16": {
+            "Monday": [
+               
+                {
+                    "time": "9:55-10:45",
+                    "subject": "L-PRP",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "10:50-12:35",
+                    "subject": "L-ES2",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "12:40-2:25",
+                    "subject": "L-SnS",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "2:30-3:20",
+                    "subject": "T-DSW",
+                    "room": "116",
+                    "teacher": ""
+                },
+                {
+                    "time": "3:25-4:15",
+                    "subject": "T-PRP",
+                    "room": "126",
+                    "teacher": ""
+                },
+                {
+                    "time": "4:20-5:10",
+                    "subject": "L-DSW",
+                    "room": "CR53",
+                    "teacher": ""
+                }
+            ],
+            "Tuesday": [
+              
+                {
+                    "time": "9:55-10:45",
+                    "subject": "L-Eco",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "10:50-11:40",
+                    "subject": "L-DSW",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "1:35-2:25",
+                    "subject": "L-ES2",
+                    "room": "CR54",
+                    "teacher": ""
+                },
+                {
+                    "time": "2:30-3:20",
+                    "subject": "L-DCD",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "3:25-4:15",
+                    "subject": "T-SnS",
+                    "room": "228",
+                    "teacher": ""
+                },
+                {
+                    "time": "4:20-5:10",
+                    "subject": "T-Eco",
+                    "room": "127",
+                    "teacher": ""
+                }
+            ],
+            "Wednesday": [
+                {
+                    "time": "9:00-9:50",
+                    "subject": "L-SnS",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "9:55-10:45",
+                    "subject": "L-DCD",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "10:50-11:40",
+                    "subject": "L-PRP",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "11:45-12:35",
+                    "subject": "L-ES2",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "1:35-2:25",
+                    "subject": "L-DSW",
+                    "room": "225",
+                    "teacher": ""
+                },
+                {
+                    "time": "2:30-3:20",
+                    "subject": "T-ES2",
+                    "room": "121",
+                    "teacher": ""
+                },
+                {
+                    "time": "3:5-4:15",
+                    "subject": "T-DCD",
+                    "room": "234",
+                    "teacher": ""
+                }
+            ],
+            "Thursday": [
+                {
+                    "time": "9:00-9:50",
+                    "subject": "L-EVS",
+                    "room": "CR54",
+                    "teacher": ""
+                },
+                {
+                    "time": "9:55-10:45",
+                    "subject": "L-DCD",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "10:50-12:35",
+                    "subject": "P-DCD",
+                    "room": "224",
+                    "teacher": ""
+                },
+                {
+                    "time": "1:35-2:25",
+                    "subject": "L-SnS",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "2:30-3:20",
+                    "subject": "L-Eco",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "3:25-4:15",
+                    "subject": "L-EVS",
+                    "room": "244",
+                    "teacher": ""
+                }
+            ],
+            "Friday": [
+              
+                {
+                    "time": "9:55-10:45",
+                    "subject": "L-PRP",
+                    "room": "CR55",
+                    "teacher": ""
+                },
+                {
+                    "time": "10:50-12:35",
+                    "subject": "P-SnS",
+                    "room": "134",
+                    "teacher": ""
+                },
+                {
+                    "time": "1:35-3:20",
+                    "subject": "P-ES2",
+                    "room": "130",
+                    "teacher": ""
+                },
+                {
+                    "time": "3:25-4:15",
+                    "subject": "L-EVS",
+                    "room": "CR53",
+                    "teacher": ""
+                }
+            ],
+            "Saturday": [
+                {
+                    "time": "9:00-11:40",
+                    "subject": "P-DSW",
+                    "room": "CL2",
+                    "teacher": ""
+                }
+            ]
+        }
+    }
+}
