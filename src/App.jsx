@@ -29,7 +29,6 @@ const App = () => {
           </button>
         </div>
 
-        {/* Dropdown to switch between calendar and timetable */}
         <div className="mb-6 w-full max-w-5xl flex justify-center">
           <select
             className="bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 p-3 rounded-full shadow-md hover:bg-gray-300 dark:hover:bg-gray-700 transition-all"
@@ -41,7 +40,6 @@ const App = () => {
           </select>
         </div>
 
-        {/* Conditionally render based on selected page */}
         {activePage === "calendar" ? <AcademicCalendar /> : <Timetable />}
       </div>
     </div>
