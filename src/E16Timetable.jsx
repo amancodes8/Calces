@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import { motion, stagger } from "framer-motion";
 
 const E16Timetable = () => {
     const [timetableData, setTimetableData] = useState(null);
@@ -59,37 +59,6 @@ const E16Timetable = () => {
         return () => clearInterval(interval);
     }, []);
 
-    useEffect(() => {
-        if (timetableData && selectedDay) {
-            const now = new Date();
-            const currentHour = now.getHours();
-            const currentMinute = now.getMinutes();
-
-            const sessions = timetableData[selectedDay];
-            const currentClassSession = sessions?.find((session) => {
-                if (!session.time) return false;
-
-                const [startTime, endTime] = session.time.split(" - ").map((time) => {
-                    const [hour, minute] = time.split(":").map(Number);
-                    return { hour, minute };
-                });
-
-                if (!startTime || !endTime) return false;
-
-                const isAfterStart =
-                    currentHour > startTime.hour ||
-                    (currentHour === startTime.hour && currentMinute >= startTime.minute);
-                const isBeforeEnd =
-                    currentHour < endTime.hour ||
-                    (currentHour === endTime.hour && currentMinute < endTime.minute);
-
-                return isAfterStart && isBeforeEnd;
-            });
-
-            setCurrentClass(currentClassSession);
-        }
-    }, [timetableData, selectedDay]);
-
     const handleDayChange = (event) => {
         setSelectedDay(event.target.value);
     };
@@ -100,6 +69,12 @@ const E16Timetable = () => {
 
     const today = new Date();
     const showScheduleTill19th = today <= new Date(2024, 9, 19); // Visible until October 19th
+
+    // Animation for flip effect
+    const flipAnimation = {
+        hidden: { rotateX: -180, opacity: 0 },
+        visible: { rotateX: 0, opacity: 1, transition: { duration: .7, ease: "linear", stagger: 0.5 } }
+    };
 
     return (
         <div className="min-h-screen bg-gray-100 text-gray-800 p-6 flex flex-col items-center dark:bg-gray-900 dark:text-gray-100">
@@ -147,11 +122,17 @@ const E16Timetable = () => {
                     </button>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                         {examSchedule.map((exam, index) => (
-                            <div key={index} className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                            <motion.div
+                                key={index}
+                                className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md shadow-red-500"
+                                variants={flipAnimation}
+                                initial="hidden"
+                                animate="visible"
+                            >
                                 <p className="font-semibold">{exam.date}</p>
                                 <p className="text-gray-600 dark:text-gray-400">Subject: {exam.subject}</p>
                                 <p className="text-gray-600 dark:text-gray-400">Time: {exam.startTime} - {exam.endTime}</p>
-                            </div>
+                            </motion.div>
                         ))}
                     </div>
                 </div>
@@ -175,7 +156,7 @@ const E16Timetable = () => {
                         {timetableData[selectedDay].map((session, idx) => (
                             <motion.div
                                 key={idx}
-                                className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md flex flex-col justify-between"
+                                className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg flex flex-col justify-between"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.3, delay: idx * 0.1 }}
