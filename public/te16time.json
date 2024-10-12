@@ -43,7 +43,7 @@
             "Tuesday": [
               
                 {
-                    "time": "9:55-10:45",
+                    "time": ")9:55-10:45",
                     "subject": "L-Eco",
                     "room": "CR55",
                     "teacher": ""
@@ -61,7 +61,7 @@
                     "teacher": ""
                 },
                 {
-                    "time": "2:30-3:20",
+                    "time": "02:30-3:20",
                     "subject": "L-DCD",
                     "room": "CR55",
                     "teacher": ""
@@ -164,7 +164,7 @@
             "Friday": [
               
                 {
-                    "time": "9:55-10:45",
+                    "time": "09:55-10:45",
                     "subject": "L-PRP",
                     "room": "CR55",
                     "teacher": ""
@@ -176,13 +176,13 @@
                     "teacher": ""
                 },
                 {
-                    "time": "1:35-3:20",
+                    "time": "01:35-3:20",
                     "subject": "P-ES2",
                     "room": "130",
                     "teacher": ""
                 },
                 {
-                    "time": "3:25-4:15",
+                    "time": "03:25-4:15",
                     "subject": "L-EVS",
                     "room": "CR53",
                     "teacher": ""
