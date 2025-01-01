@@ -4,196 +4,179 @@
             "Monday": [
                
                 {
-                    "time": "9:55-10:45",
-                    "subject": "L-PRP",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "9:00-10:50",
+                    "subject": "P-ADC",
+                    "room": "133",
+                    "teacher": "Ajit Kumar"
                 },
                 {
                     "time": "10:50-12:35",
-                    "subject": "L-ES2",
-                    "room": "CR55",
-                    "teacher": ""
+                    "subject": "FA, Litr, IE, Litr",
+                    "room": "148, 153, 117, 244B",
+                    "teacher": "SV, PS, AA, ES"
                 },
                 {
-                    "time": "12:40-2:25",
-                    "subject": "L-SnS",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "2:00-2:50",
+                    "subject": "L-DSP",
+                    "room": "228",
+                    "teacher": "SVS"
                 },
                 {
-                    "time": "2:30-3:20",
-                    "subject": "T-DSW",
-                    "room": "116",
-                    "teacher": ""
-                },
-                {
-                    "time": "3:25-4:15",
-                    "subject": "T-PRP",
-                    "room": "126",
-                    "teacher": ""
-                },
-                {
-                    "time": "4:20-5:10",
-                    "subject": "L-DSW",
-                    "room": "CR53",
-                    "teacher": ""
+                    "time": "3:00-4:50",
+                    "subject": "P-",
+                    "room": "142",
+                    "teacher": "ANKUR GUPTA"
                 }
+              
             ],
             "Tuesday": [
               
                 {
-                    "time": ")9:55-10:45",
-                    "subject": "L-Eco",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "9:00-10:50",
+                    "subject": "P-AE",
+                    "room": "224/142",
+                    "teacher": "Tikkiwal"
                 },
                 {
-                    "time": "10:50-11:40",
-                    "subject": "L-DSW",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "11:00-11:50",
+                    "subject": "L-ADC",
+                    "room": "244B",
+                    "teacher": "RKS"
                 },
                 {
-                    "time": "1:35-2:25",
-                    "subject": "L-ES2",
-                    "room": "CR54",
-                    "teacher": ""
+                    "time": "12:00-12:50",
+                    "subject": "T-UHV",
+                    "room": "126",
+                    "teacher": "Sakshi Varshney"
                 },
                 {
-                    "time": "02:30-3:20",
-                    "subject": "L-DCD",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "02:00-2:50",
+                    "subject": "T-DSP",
+                    "room": "116",
+                    "teacher": "KD Tyagi"
                 },
                 {
-                    "time": "3:25-4:15",
-                    "subject": "T-SnS",
-                    "room": "228",
-                    "teacher": ""
+                    "time": "3:00-3:50",
+                    "subject": "L-",
+                    "room": "CR53",
+                    "teacher": "Parul Arora"
                 },
                 {
-                    "time": "4:20-5:10",
-                    "subject": "T-Eco",
-                    "room": "127",
-                    "teacher": ""
+                    "time": "4:00-4:50",
+                    "subject": "T-AE",
+                    "room": "116",
+                    "teacher": "BR. Chaturvedi"
                 }
             ],
             "Wednesday": [
                 {
                     "time": "9:00-9:50",
-                    "subject": "L-SnS",
-                    "room": "CR55",
-                    "teacher": ""
+                    "subject": "L-DSP",
+                    "room": "DW04",
+                    "teacher": "SVS"
                 },
                 {
-                    "time": "9:55-10:45",
-                    "subject": "L-DCD",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "10:00-11:50",
+                    "subject": "P-",
+                    "room": "134",
+                    "teacher": "ANKUR GUPTA"
                 },
                 {
-                    "time": "10:50-11:40",
-                    "subject": "L-PRP",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "2:00-2:50",
+                    "subject": "FA, Litr, IE, Litr",
+                    "room": "148, 153, 117, 244B",
+                    "teacher": "SV, PS, AA, ES"
                 },
                 {
-                    "time": "11:45-12:35",
-                    "subject": "L-ES2",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "3:00-3:50",
+                    "subject": "L-ADC",
+                    "room": "CR54",
+                    "teacher": "RKS"
                 },
                 {
-                    "time": "1:35-2:25",
-                    "subject": "L-DSW",
-                    "room": "225",
-                    "teacher": ""
-                },
-                {
-                    "time": "2:30-3:20",
-                    "subject": "T-ES2",
-                    "room": "121",
-                    "teacher": ""
-                },
-                {
-                    "time": "3:5-4:15",
-                    "subject": "T-DCD",
-                    "room": "234",
-                    "teacher": ""
+                    "time": "4:00-4:50",
+                    "subject": "L-UHV",
+                    "room": "217",
+                    "teacher": "Priyanka Kwatra"
                 }
             ],
             "Thursday": [
                 {
                     "time": "9:00-9:50",
-                    "subject": "L-EVS",
-                    "room": "CR54",
-                    "teacher": ""
+                    "subject": "L-AE",
+                    "room": "244B",
+                    "teacher": "BR. Chaturvedi"
                 },
                 {
-                    "time": "9:55-10:45",
-                    "subject": "L-DCD",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "11:00-11:50",
+                    "subject": "L-UHV",
+                    "room": "244B",
+                    "teacher": "Priyanka Kwatra"
                 },
                 {
-                    "time": "10:50-12:35",
-                    "subject": "P-DCD",
-                    "room": "224",
-                    "teacher": ""
+                    "time": "12:00-12:50",
+                    "subject": "L-ADC",
+                    "room": "244B",
+                    "teacher": "RKS"
                 },
                 {
-                    "time": "1:35-2:25",
-                    "subject": "L-SnS",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "2:00-2:50",
+                    "subject": "L-DSP",
+                    "room": "CR53",
+                    "teacher": "SVS"
                 },
                 {
-                    "time": "2:30-3:20",
-                    "subject": "L-Eco",
-                    "room": "CR55",
-                    "teacher": ""
-                },
-                {
-                    "time": "3:25-4:15",
-                    "subject": "L-EVS",
-                    "room": "244",
-                    "teacher": ""
+                    "time": "3:00-3:50",
+                    "subject": "T-FA,T-Litr, T-IE",
+                    "room": "127, 121, 126",
+                    "teacher": "SV, PS, AA"
                 }
             ],
             "Friday": [
               
                 {
-                    "time": "09:55-10:45",
-                    "subject": "L-PRP",
-                    "room": "CR55",
-                    "teacher": ""
+                    "time": "10:00-10:50",
+                    "subject": "T-ADC",
+                    "room": "116",
+                    "teacher": "RKS"
                 },
                 {
-                    "time": "10:50-12:35",
-                    "subject": "P-SnS",
-                    "room": "134",
-                    "teacher": ""
-                },
-                {
-                    "time": "01:35-3:20",
-                    "subject": "P-ES2",
-                    "room": "130",
-                    "teacher": ""
-                },
-                {
-                    "time": "03:25-4:15",
-                    "subject": "L-EVS",
+                    "time": "11:00-11:50",
+                    "subject": "L-AE",
                     "room": "CR53",
-                    "teacher": ""
+                    "teacher": "BR. Chaturvedi"
+                },
+                {
+                    "time": "12:00-12:50",
+                    "subject": "L-",
+                    "room": "CR53",
+                    "teacher": "Parul Arora"
+                },
+                {
+                    "time": "2:00-2:50",
+                    "subject": "L-DSP",
+                    "room": "CR53",
+                    "teacher": "SVS"
                 }
             ],
             "Saturday": [
                 {
-                    "time": "9:00-11:40",
-                    "subject": "P-DSW",
-                    "room": "CL2",
-                    "teacher": ""
+                    "time": "9:00-9:50",
+                    "subject": "L-",
+                    "room": "CR53",
+                    "teacher": "Parul Arora"
+                },
+                {
+                    "time":"10:00-10:50",
+                    "subject": "L-AE",
+                    "room": "CR53",
+                    "teacher": "BR. Chaturvedi"
+                },
+                {
+                    "time": "11:00-12:50",
+                    "subject": "P-DSP",
+                    "room": "134",
+                    "teacher": "SVS"
                 }
             ]
         }
