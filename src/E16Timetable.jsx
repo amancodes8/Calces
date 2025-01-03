@@ -5,7 +5,6 @@ const E16Timetable = () => {
     const [timetableData, setTimetableData] = useState(null);
     const [selectedDay, setSelectedDay] = useState("");
     const [days, setDays] = useState([]);
-    const [currentClass, setCurrentClass] = useState(null);
     const [currentTime, setCurrentTime] = useState("");
 
     const fetchTimetableData = async () => {
@@ -80,8 +79,9 @@ const E16Timetable = () => {
                                 <div>
                                     <p className="font-bold text-lg text-blue-600">{session.time}</p>
                                     <p className="text-gray-700 dark:text-gray-400 mt-2">{session.subject}</p>
+                                <p className="text-md text-gray-500 dark:text-gray-400 mt-1">Room: {session.room}</p>
                                 </div>
-                                <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">Room: {session.room}</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-4">Teacher: {session.teacher}</p>
                             </motion.div>
                         ))}
                     </div>

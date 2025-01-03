@@ -2,152 +2,45 @@
     "batches": {
         "E1": {
             "Monday": [
-                {
-                    "time": "09:55 AM - 10:45 AM",
-                    "subject": "English",
-                    "room": "118",
-                    "teacher": ""
-                },
-                {
-                    "time": "10:50 AM - 11:40 AM",
-                    "subject": "Basic Electronics",
-                    "room": "117",
-                    "teacher": ""
-                },
-                {
-                    "time": "01:35 PM - 02:25 PM",
-                    "subject": "Physics",
-                    "room": "118",
-                    "teacher": ""
-                },
-                {
-                    "time": "02:30 PM - 04:15 PM",
-                    "subject": "Physics Lab",
-                    "room": "041",
-                    "teacher": ""
-                }
+                {"time": "09:00 AM - 09:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "10:00 AM - 10:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "11:00 AM - 11:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "02:00 PM - 02:50 PM", "subject": "", "room": "", "teacher": ""},
+                {"time": "03:00 PM - 03:50 PM", "subject": "", "room": "", "teacher": ""}
             ],
             "Tuesday": [
-                {
-                    "time": "09:55 AM - 10:45 AM",
-                    "subject": "Physics",
-                    "room": "118",
-                    "teacher": ""
-                },
-                {
-                    "time": "10:50 AM - 11:40 AM",
-                    "subject": "Basic Electronics",
-                    "room": "SR05",
-                    "teacher": ""
-                },
-                {
-                    "time": "01:35 PM - 02:25 PM",
-                    "subject": "Mathematics",
-                    "room": "SR05",
-                    "teacher": "Kamlesh Kumar Shukla"
-                }
+                {"time": "09:00 AM - 09:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "10:00 AM - 10:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "11:00 AM - 11:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "02:00 PM - 02:50 PM", "subject": "", "room": "", "teacher": ""},
+                {"time": "03:00 PM - 03:50 PM", "subject": "", "room": "", "teacher": ""}
             ],
             "Wednesday": [
-                {
-                    "time": "09:00 AM - 09:50 AM",
-                    "subject": "Physics Tutorial",
-                    "room": "126",
-                    "teacher": ""
-                },
-                {
-                    "time": "09:55 AM - 10:45 AM",
-                    "subject": "Physics",
-                    "room": "118",
-                    "teacher": ""
-                },
-                {
-                    "time": "10:50 AM - 11:40 AM",
-                    "subject": "Basic Electronics Lab",
-                    "room": "EL 1",
-                    "teacher": ""
-                },
-              
-                {
-                    "time": "02:30 PM - 04:15 PM",
-                    "subject": "English Lab",
-                    "room": "240",
-                    "teacher": ""
-                },
-                {
-                    "time": "04:20 PM - 05:10PM",
-                    "subject": "SDF Lecture",
-                    "room": "118",
-                    "teacher": "VTP"
-                }
+                {"time": "09:00 AM - 09:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "10:00 AM - 10:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "11:00 AM - 11:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "02:00 PM - 02:50 PM", "subject": "", "room": "", "teacher": ""},
+                {"time": "03:00 PM - 03:50 PM", "subject": "", "room": "", "teacher": ""}
             ],
             "Thursday": [
-                {
-                    "time": "09:00 AM - 09:50 AM",
-                    "subject": "Mathematics",
-                    "room": "SR05",
-                    "teacher": "Kamlesh Kumar Shukla"
-                },
-                {
-                    "time": "09:55 AM - 10:45 AM",
-                    "subject": "SDF Lecture",
-                    "room": "153",
-                    "teacher": "VTP"
-                },
-                {
-                    "time": "10:50 AM - 11:40 AM",
-                    "subject": "Basic Electronics Tutorial",
-                    "room": "116",
-                    "teacher": ""
-                },
-                
-                {
-                    "time": "02:30 PM - 04:15 PM",
-                    "subject": "SDF Lab",
-                    "room": "031",
-                    "teacher": "3-3 Teachers"
-                }
+                {"time": "09:00 AM - 09:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "10:00 AM - 10:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "11:00 AM - 11:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "02:00 PM - 02:50 PM", "subject": "", "room": "", "teacher": ""},
+                {"time": "03:00 PM - 03:50 PM", "subject": "", "room": "", "teacher": ""}
             ],
             "Friday": [
-                {
-                    "time": "09:55 AM - 10:45 AM",
-                    "subject": "SDF Tutorial",
-                    "room": "121",
-                    "teacher": "Shruti Jaiswal"
-                },
-                {
-                    "time": "10:50 AM - 11:40 AM",
-                    "subject": "Basic Electronics",
-                    "room": "123",
-                    "teacher": ""
-                },
-                {
-                    "time": "11:45 PM - 12:35 PM",
-                    "subject": "SDF Lecture",
-                    "room": "118",
-                    "teacher": ""
-                },
-                {
-                    "time": "01:35 PM - 04:15 PM",
-                    "subject": "Workshop",
-                    "room": "WS04",
-                    "teacher": ""
-                }
+                {"time": "09:00 AM - 09:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "10:00 AM - 10:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "11:00 AM - 11:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "02:00 PM - 02:50 PM", "subject": "", "room": "", "teacher": ""},
+                {"time": "03:00 PM - 03:50 PM", "subject": "", "room": "", "teacher": ""}
             ],
             "Saturday": [
-              
-                {
-                    "time": "10:50 AM - 11:40 AM",
-                    "subject": "Mathematics Tutorial",
-                    "room": "113",
-                    "teacher": ""
-                },
-                {
-                    "time": "11:45 AM - 12:35 AM",
-                    "subject": "Mathematics ",
-                    "room": "SR05",
-                    "teacher": "Kamlesh Kumar Shukla"
-                }
-            ]
+                {"time": "09:00 AM - 09:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "10:00 AM - 10:50 AM", "subject": "", "room": "", "teacher": ""},
+                {"time": "11:00 AM - 11:50 AM", "subject": "", "room": "", "teacher": ""},
+              ]
         }
     }
 }

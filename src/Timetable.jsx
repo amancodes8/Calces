@@ -21,14 +21,12 @@ const Timetable = () => {
                 className="mb-4 p-2 border border-gray-300 rounded-lg shadow-md bg-black text-white w-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200 ease-in-out"
             >
                 <option value="E1">E1</option>
-                <option value="TE16">TE16</option>
-                <option value="E15">E15</option>
+                <option value="TE16">E16</option>
             </select></div>
 
             {/* Conditional rendering of timetables */}
             {selectedBatch === "E1" && <E1Timetable />}
             {selectedBatch === "TE16" && <TE16Timetable />}
-            {selectedBatch === "E15" && <div className="text-xl">This timetable is under development.</div>}
         </div>
     );
 };

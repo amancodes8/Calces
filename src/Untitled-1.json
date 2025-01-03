@@ -10,7 +10,7 @@
                     "teacher": "Ajit Kumar"
                 },
                 {
-                    "time": "11:50-11:50",
+                    "time": "10:50-12:35",
                     "subject": "FA, Litr, IE, Litr",
                     "room": "148, 153, 117, 244B",
                     "teacher": "SV, PS, AA, ES"
@@ -23,7 +23,7 @@
                 },
                 {
                     "time": "3:00-4:50",
-                    "subject": "P-ML",
+                    "subject": "P-",
                     "room": "142",
                     "teacher": "ANKUR GUPTA"
                 }
@@ -57,7 +57,7 @@
                 },
                 {
                     "time": "3:00-3:50",
-                    "subject": "L-ML",
+                    "subject": "L-",
                     "room": "CR53",
                     "teacher": "Parul Arora"
                 },
@@ -77,7 +77,7 @@
                 },
                 {
                     "time": "10:00-11:50",
-                    "subject": "P-ML",
+                    "subject": "P-",
                     "room": "134",
                     "teacher": "ANKUR GUPTA"
                 },
@@ -148,7 +148,7 @@
                 },
                 {
                     "time": "12:00-12:50",
-                    "subject": "L-ML",
+                    "subject": "L-",
                     "room": "CR53",
                     "teacher": "Parul Arora"
                 },
@@ -162,7 +162,7 @@
             "Saturday": [
                 {
                     "time": "9:00-9:50",
-                    "subject": "L-ML",
+                    "subject": "L-",
                     "room": "CR53",
                     "teacher": "Parul Arora"
                 },
