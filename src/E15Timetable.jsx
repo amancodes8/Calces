@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-const E16Timetable = () => {
+const E15Timetable = () => {
     const [timetableData, setTimetableData] = useState(null);
     const [selectedDay, setSelectedDay] = useState("");
     const [days, setDays] = useState([]);
@@ -9,18 +9,18 @@ const E16Timetable = () => {
 
     const fetchTimetableData = async () => {
         try {
-            const response = await fetch(`/te16time.json`);
+            const response = await fetch(`/e15time.json`);
             const data = await response.json();
 
-            if (data.batches && data.batches.TE16) {
-                setTimetableData(data.batches.TE16);
-                const availableDays = Object.keys(data.batches.TE16);
+            if (data.batches && data.batches.E15) {
+                setTimetableData(data.batches.E15);
+                const availableDays = Object.keys(data.batches.E15);
                 setDays(availableDays);
                 const today = new Date().toLocaleString("en-US", { weekday: "long" });
-                setSelectedDay(today in data.batches.TE16 ? today : availableDays[0]);
+                setSelectedDay(today in data.batches.E15 ? today : availableDays[0]);
             }
         } catch (error) {
-            console.error("Error fetching TE16 timetable data:", error);
+            console.error("Error fetching E15 timetable data:", error);
         }
     };
 
@@ -45,7 +45,7 @@ const E16Timetable = () => {
 
     return (
         <div className="min-h-screen bg-gray-50 p-6 flex flex-col items-center text-gray-800 dark:bg-gray-900 dark:text-gray-100">
-            <h1 className="text-4xl font-bold mb-6 text-blue-600">E16 Timetable</h1>
+            <h1 className="text-4xl font-bold mb-6 text-blue-600">E15 Timetable</h1>
 
             {/* Dropdown for selecting days */}
             <div className="mb-6">
@@ -79,9 +79,9 @@ const E16Timetable = () => {
                                 <div>
                                     <p className="font-bold text-lg text-blue-600">{session.time}</p>
                                     <p className="text-gray-700 dark:text-gray-400 mt-2">{session.subject}</p>
-                                <p className="text-md text-gray-500 dark:text-gray-400 mt-1">Room: {session.room}</p>
+                                    <p className="text-md text-gray-500 dark:text-gray-400 mt-1">Room: {session.room}</p>
                                 </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-4">Teacher: {session.teacher}</p>
+                                <p className="text-gray-600 dark:text-gray-400 mt-4">Teacher: {session.teacher}</p>
                             </motion.div>
                         ))}
                     </div>
@@ -93,4 +93,4 @@ const E16Timetable = () => {
     );
 };
 
-export default E16Timetable;
+export default E15Timetable;
