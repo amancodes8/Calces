@@ -3,11 +3,10 @@ import { FaCalendarAlt, FaGraduationCap, FaPlaneDeparture } from "react-icons/fa
 
 const AcademicCalendar = () => {
     const [calendarData, setCalendarData] = useState(null);
-    const [isOddSemester, setIsOddSemester] = useState(true);
-    const [selectedExam, setSelectedExam] = useState("t2_exam");
+    const [isOddSemester, setIsOddSemester] = useState(false);
+    const [selectedExam, setSelectedExam] = useState("t1_exam");
     const [activeTab, setActiveTab] = useState("holidays");
 
-    // Fetch the academic calendar data from the JSON file
     useEffect(() => {
         fetch("/academicCalendar.json")
             .then((response) => response.json())

@@ -10,10 +10,10 @@
                     "teacher": "Ajit Kumar"
                 },
                 {
-                    "time": "11:50-11:50",
-                    "subject": "FA, Litr, IE, Litr",
-                    "room": "148, 153, 117, 244B",
-                    "teacher": "SV, PS, AA, ES"
+                    "time": "11:00-11:50",
+                    "subject": "FA, Litr,Psycho,  IE, Litr",
+                    "room": "148, 153, ...,  117, 244B",
+                    "teacher": "SV, PS, Shweta,  AA, ES"
                 },
                 {
                     "time": "2:00-2:50",
@@ -30,7 +30,6 @@
               
             ],
             "Tuesday": [
-              
                 {
                     "time": "9:00-10:50",
                     "subject": "P-AE",
@@ -69,12 +68,6 @@
                 }
             ],
             "Wednesday": [
-                {
-                    "time": "9:00-9:50",
-                    "subject": "L-DSP",
-                    "room": "DW04",
-                    "teacher": "SVS"
-                },
                 {
                     "time": "10:00-11:50",
                     "subject": "P-ML",

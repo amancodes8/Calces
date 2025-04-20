@@ -98,15 +98,19 @@
                 "results_upload": "24 February 2025"
             },
             "t2_exam": {
-                "schedule": "25-31 March 2025",
+                "schedule": "24-31 March 2025",
                 "results_upload": "09 April 2025"
             },
             "end_semester_exam": {
-                "schedule": "12-21 May 2025",
+                "schedule": "12-22 May 2025",
                 "results_upload": "02 June 2025"
             }
         },
         "holidays": [
+            {
+                "name": "Makar Sankranti",
+                "date": "14 January 2025"
+            },
             {
                 "name": "Republic Day",
                 "date": "26 January 2025"
@@ -124,6 +128,10 @@
                 "date": "01 April 2025"
             },
             {
+                "name": "Mahavir Jayanti",
+                "date": "10 April 2025"
+            },
+            {
                 "name": "Ram Navmi",
                 "date": "06 April 2025"
             },
@@ -135,20 +143,16 @@
         "events": [
             {
                 "name": "Cultural Fest",
-                "date": "15 February 2025"
+                "date": "28 Feb - 2 March 2025"
             },
             {
                 "name": "Alumni Meet",
                 "date": "01 March 2025"
-            },
-            {
-                "name": "Spring Carnival",
-                "date": "05 April 2025"
             }
         ],
         "breaks": {
             "mid_semester_break": "10-16 March 2025",
-            "end_semester_break": "22 May - 13 July 2025"
+            "end_semester_break": "22 May - 23 July 2025"
         }
     }
 }
